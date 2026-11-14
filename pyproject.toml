@@ -1,0 +1,21 @@
+[project]
+name = "arabic-nlp-toolkit"
+version = "0.1.0"
+description = "Dependency-free Arabic text normalisation, tokenising, transliteration and fuzzy matching."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["arabic_toolkit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

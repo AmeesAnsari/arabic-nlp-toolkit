@@ -1,5 +1,7 @@
 # arabic-nlp-toolkit
 
+[![CI](https://github.com/AmeesAnsari/arabic-nlp-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/AmeesAnsari/arabic-nlp-toolkit/actions/workflows/ci.yml) ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Small, **dependency-free** Python helpers for the parts of Arabic text processing that quietly break search, matching and speech scoring.
 
 Two Arabic strings that look identical often aren't byte-identical: optional diacritics, the tatweel stretch, four kinds of alef, alef maksura vs. ya, two digit systems, invisible direction marks from copy-paste, and ligature characters from PDFs. This toolkit folds those differences together, then gives you tokenising, fuzzy matching and word alignment that understand them.
